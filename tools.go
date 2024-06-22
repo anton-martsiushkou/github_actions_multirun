@@ -1,0 +1,9 @@
+//go:build tools
+// +build tools
+
+package main
+
+import (
+	_ "github.com/gojuno/minimock"
+	_ "github.com/hexdigest/gowrap"
+)
